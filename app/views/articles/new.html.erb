@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <h1>Create Article:</h1>
+  <form class="new_article" id="new_article" action="/articles" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ND1yK5jXc6KIlmPpbcEQStTsdx3QrsQ1W2u6NYVTGefT09Hi1M66rfy13j-xBC0sZmT3s8dvESXy-mk0CPaUyQ" autocomplete="off">
+    <div class="form-group mb-3">
+      <label for="article_title">Title</label>
+      <input class="form-control" type="text" name="article[title]" id="article_title">
+    </div>
+    <div class="form-group mb-3">
+      <label for="article_content">Content</label>
+      <input class="form-control" type="text" name="article[content]" id="article_content">
+    </div>
+    <input class="btn btn-primary mb-3" type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+  </form>
+</div>
